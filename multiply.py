@@ -1,6 +1,8 @@
-name='umamages'
-i=0
-while i<len(name):
-    if  not name[i] =='a':
-      print(name[i])
-    i=i+1    
+# Multiplication table
+
+no=int(input("Enter a number:"))
+count=1
+while count<=10:
+    product=no*count
+    print(no,"*",count,"=",product)
+    count=count+1
